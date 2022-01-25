@@ -16,6 +16,7 @@ document.getElementById("atcelc").onclick = function(){
     result = toCelsius(ree);
     var fixedNum = parseFloat(result).toFixed( 3 );
     console.log(fixedNum)
+    alert(fixedNum)
 }
 
 document.getElementById("farenbutton").onclick = function(){
@@ -23,4 +24,5 @@ document.getElementById("farenbutton").onclick = function(){
     result = toFarenheit(ree);
     var fixedNum = parseFloat(result).toFixed( 3 );
     console.log(fixedNum)
+    alert(fixedNum)
 }
